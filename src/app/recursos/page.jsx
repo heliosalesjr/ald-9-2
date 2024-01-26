@@ -1,6 +1,9 @@
 'use client'
 
+import AtiUnindoFerramentas from '../components/Recursos/AtiUnindoFerramentas'
 import RecHero from '../components/Recursos/RecHero'
+import RecPadlet from '../components/Recursos/RecPadlet'
+import RecPadletVideo from '../components/Recursos/RecPadletVideo'
 
 
 function Recursos() {
@@ -8,7 +11,9 @@ function Recursos() {
     <>
         
         <RecHero />
-        
+        <RecPadlet />
+        <RecPadletVideo />
+        <AtiUnindoFerramentas />
         
     
     </>

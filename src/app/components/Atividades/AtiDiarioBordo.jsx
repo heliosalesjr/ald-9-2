@@ -3,8 +3,7 @@ import {Accordion, AccordionItem} from "@nextui-org/react";
 
 const AtiDiarioBordo = () => {
   return (
-    <div className="max-w-7xl mx-auto p-8 flex justify-center items-center">
-     
+    <div className="max-w-7xl mx-auto p-8 flex flex-col md:flex-row justify-center items-center">
       <div className="text-center md:w-1/2">
         <h1 className="text-2xl md:text-4xl text-slate-600 font-bold mb-4">Diário de Bordo</h1>
         <p className="text-slate-600">
@@ -13,7 +12,7 @@ const AtiDiarioBordo = () => {
       </div>
 
       
-      <div className="md:w-1/2 ml-8">
+      <div className="w-full py-4 md:w-1/2 ml-0 md:ml-8 pb-8 md:pb-0">
       <Accordion variant="shadow">
       <AccordionItem key="1" aria-label="Accordion 1" title="Anotações">
         <p>As anotações podem ser feitas em um texto narrativo, como quem conta um caso ou de forma esquemática. Você pode anexar fotos ou vídeos que mostrem algum momento do processo. Assim, você poderá visualizar e avaliar toda a jornada quando esta chegar ao fim.</p>
