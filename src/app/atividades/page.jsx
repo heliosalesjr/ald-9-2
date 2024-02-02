@@ -10,13 +10,14 @@ import AtiSugestao from '../components/Atividades/AtiSugestao'
 import { Divider } from '@nextui-org/react'
 import Monitoramento from '../components/Atividades/Monitoramento'
 import AtiDiarioBordo from '../components/Atividades/AtiDiarioBordo'
-
+import Teste from '../components/Atividades/Teste'
 function Atividades() {
   return (
     <>
         
         <AtivHero />
         <AtiEtapas />
+        <Teste />
         <AtiPlanejamento />
         <AtiPlanejamentoEducador />
         <AtiEstudante />
