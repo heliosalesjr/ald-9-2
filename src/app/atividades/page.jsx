@@ -11,6 +11,7 @@ import { Divider } from '@nextui-org/react'
 import Monitoramento from '../components/Atividades/Monitoramento'
 import AtiDiarioBordo from '../components/Atividades/AtiDiarioBordo'
 import Teste from '../components/Atividades/Teste'
+import AtiPlanoPDA from '../components/Atividades/AtiPlanoPDA'
 function Atividades() {
   return (
     <>
@@ -18,6 +19,7 @@ function Atividades() {
         <AtivHero />
         <AtiEtapas />
         <Teste />
+        <AtiPlanoPDA />
         <AtiPlanejamento />
         <AtiPlanejamentoEducador />
         <AtiEstudante />
