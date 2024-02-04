@@ -12,6 +12,7 @@ import Monitoramento from '../components/Atividades/Monitoramento'
 import AtiDiarioBordo from '../components/Atividades/AtiDiarioBordo'
 import Teste from '../components/Atividades/Teste'
 import AtiPlanoPDA from '../components/Atividades/AtiPlanoPDA'
+import AtiPDAAcordion from '../components/Atividades/AtiPDAAcordion'
 function Atividades() {
   return (
     <>
@@ -20,14 +21,9 @@ function Atividades() {
         <AtiEtapas />
         <Teste />
         <AtiPlanoPDA />
-        <AtiPlanejamento />
-        <AtiPlanejamentoEducador />
-        <AtiEstudante />
-        <Divider className='max-w-5xl mx-auto my-4 bg-primary'/>
+        <AtiPDAAcordion />
         <AtiSugestao />
-        <Divider className='max-w-5xl mx-auto my-4 bg-primary'/>
-        <Monitoramento />
-        <AtiDiarioBordo />
+        
         <AtiBotaoNext />
         
         
