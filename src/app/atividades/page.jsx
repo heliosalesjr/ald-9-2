@@ -13,6 +13,8 @@ import AtiDiarioBordo from '../components/Atividades/AtiDiarioBordo'
 import Teste from '../components/Atividades/Teste'
 import AtiPlanoPDA from '../components/Atividades/AtiPlanoPDA'
 import AtiPDAAcordion from '../components/Atividades/AtiPDAAcordion'
+import AtiProjColetivo from '../components/Atividades/AtiProjColetivo'
+import AtiProximos from '../components/Atividades/AtiProximos'
 function Atividades() {
   return (
     <>
@@ -22,7 +24,10 @@ function Atividades() {
         <Teste />
         <AtiPlanoPDA />
         <AtiPDAAcordion />
+        <Divider className='max-w-5xl mx-auto'/>
+        <AtiProjColetivo />
         <AtiSugestao />
+        <AtiProximos />
         
         <AtiBotaoNext />
         

@@ -5,7 +5,7 @@ const MyComponent = () => {
     <div className="max-w-5xl mx-auto p-8">
       
       <div className="text-center mb-8">
-        <h1 className="text-4xl text-slate-600 md:text-4xl font-bold mb-4">Sugestão de ferramentas para o Plano de Ação dos Estudantes</h1>
+        <h1 className="text-4xl text-slate-800 md:text-4xl font-bold mb-4">Sugestão de ferramentas para o Plano de Ação dos Estudantes</h1>
         <p className="text-slate-700">
         Abaixo, sugerimos duas ferramentas importantes para a definição e organização de metas de um projeto.
         </p>
