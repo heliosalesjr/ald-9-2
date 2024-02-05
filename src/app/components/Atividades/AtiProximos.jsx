@@ -19,7 +19,7 @@ function AtiProximos() {
                 <div className="p-8 md:w-1/2 mb-4 md:mb-0">
                     <img
                     className="w-full h-full object-cover rounded-md max-h-[500px]"
-                    src="/images/proximospassos.jpg"  // Substitua pelo caminho da sua imagem
+                    src="/images/cropproximospassos.png"  // Substitua pelo caminho da sua imagem
                     alt="Descrição da Imagem"
                     />
                 </div>
@@ -32,7 +32,7 @@ function AtiProximos() {
                 <div className="p-8 md:w-1/2 mb-4 md:mb-0">
                     <img
                     className="w-full h-full object-cover rounded-md max-h-[500px]"
-                    src="/images/proximospassos.jpg"  // Substitua pelo caminho da sua imagem
+                    src="/images/cropdiario.png"  // Substitua pelo caminho da sua imagem
                     alt="Descrição da Imagem"
                     />
                 </div>
@@ -57,7 +57,7 @@ function AtiProximos() {
                         
                         
                     </ul>
-                    <p className="text-white px-8 py-2">Tudo isso será útil para a avaliação do processo inteiro e, posteriormente, para a Culminância, que ocorrerá no fim da Quarta Etapa. Você pode se inspirar em algumas dicas para o registro fotográfico que estão no Anexo 1 do Caderno do Educador (acessível aqui).</p>
+                    <p className="text-white px-8 py-2">Tudo isso será útil para a avaliação do processo inteiro e, posteriormente, para a Culminância, que ocorrerá no fim da Quarta Etapa. Você pode se inspirar em algumas dicas para o registro fotográfico que estão no Anexo 1 do Caderno do Educador <a href='https://drive.google.com/file/d/1OE9IHdzKWIePHgeznKTOjgTHS4FAT94L/view?usp=sharing' target="_blank" className='text-blue-100 underline hover:text-purple-200'>(acessível aqui)</a>{''}.</p>
                 </div>
             
             
@@ -79,7 +79,7 @@ function AtiProximos() {
                 <div className="p-8 md:w-1/2 mb-4 md:mb-0">
                     <img
                     className="w-full h-full object-cover rounded-md max-h-[500px]"
-                    src="/images/proximospassos.jpg"  // Substitua pelo caminho da sua imagem
+                    src="/images/cropmonitoramento.png"  // Substitua pelo caminho da sua imagem
                     alt="Descrição da Imagem"
                     />
                 </div>
