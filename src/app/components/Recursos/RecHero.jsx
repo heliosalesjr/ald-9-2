@@ -10,7 +10,7 @@ const RecHero = () => {
             Recursos Didáticos
             </h1>
             <p className="text-lg text-white py-8">
-            Para auxiliá-los a criar, organizar, aplicar e corrigir atividades, apresentaremos as ferramentas Google. E, para tornar a aula mais interativa e auxiliar os alunos a desenvolverem autonomia sobre o conteúdo que aprendem, apresentaremos conceitos e ferramentas para construção de um Mapa Mental e de um Infográfico.
+            Pensando no desenvolvimento do Diário de Bordo das atividades desenvolvidas durante o Projeto Coletivo, vamos apresentar a ferramenta Padlet.
             </p>
             </div>
             <div className="hidden md:block">

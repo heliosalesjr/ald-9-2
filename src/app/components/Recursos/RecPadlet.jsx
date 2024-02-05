@@ -8,7 +8,7 @@ function RecPadlet() {
         <img
           src='images/padlet.png'
           alt='Descrição da imagem'
-          className='w-full h-auto md:order-2 md:mb-4 md:max-w-[130px] md:mx-auto hidden md:block'
+          className='w-full h-auto md:order-2 md:mb-4 md:max-w-[150px] md:mx-auto hidden md:block'
         />
       </div>
       <div className='md:w-4/5 md:order-1'>
@@ -22,7 +22,7 @@ function RecPadlet() {
         <p className='text-slate-700 py-4'>
           Para visitar a página da ferramenta,{' '}
           
-          <a href='https://www.google.com/url?q=https%3A%2F%2Fpadlet.com%2F&sa=D&sntz=1&usg=AOvVaw2_IspiGwLYeexQXVYO-P4X' target="_blank" className='text-blue-700 underline'>
+          <a href='https://www.google.com/url?q=https%3A%2F%2Fpadlet.com%2F&sa=D&sntz=1&usg=AOvVaw2_IspiGwLYeexQXVYO-P4X' target="_blank" className='text-blue-700 underline hover:text-purple-900'>
             clique aqui
           </a>
           .
