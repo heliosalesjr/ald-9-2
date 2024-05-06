@@ -6,6 +6,7 @@ import IntroButons from "./components/IntroButons"
 import MainButton from "./components/MainButton"
 import OSite2 from "./components/OSite2"
 import Relembrando from "./components/Relembrando"
+import HeroBento from "./components/HeroBento"
 
 
 
@@ -13,7 +14,7 @@ export default function Home() {
   return (
     <>
       
-      <HeroSection />
+      <HeroBento />
       <OSite2 />
       <Divider className="max-w-3xl mx-auto mb-12" />  
       <Relembrando />
