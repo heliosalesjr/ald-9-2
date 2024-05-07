@@ -1,16 +1,16 @@
-import React from 'react'
+
 
 function HeroBento() {
   return (
-    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4">
+    <div className="flex h-[80vh] gap-4 max-w-7xl mx-auto px-4 pt-4 overflow:hidden">
       <div className="flex-1">
-      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center">
+      <div className="relative h-3/4 bg-blue-200 rounded-xl flex flex-col justify-center items-center min-h-[500px]">
         <h1 className="text-5xl lg:text-6xl font-semibold text-slate-800 px-12">
           Aprendendo a Lidar com Dinheiro
         </h1>
 
         <p className="text-slate-950 p-12 lg:pr-20 ">
-          Olá, professor e professora! Seja bem-vindo e bem-vinda ao site de apoio da coleção <strong>Aprendendo a Lidar com Dinheiro: Educação Financeira</strong>. Nesta seção, há informações sobre o que são os sites “Aprendendo a Lidar com Dinheiro” e como estão organizados, facilitando a navegação e consulta. Vamos conhecê-los?
+        Olá, professores e professoras! Sejam bem-vindos e bem-vindas ao segundo site da camada digital da coleção <strong>Aprendendo a Lidar com Dinheiro – Educação Financeira</strong>. Neste material, traremos um aprofundamento nas etapas de elaboração do <strong>Planejamento Didático Ativo (PDA)</strong>, conheceremos o <strong>Plano de Ação dos estudantes</strong> e aprenderemos a utilizar o <strong>Padlet</strong> para criar um Diário de Bordo.
         </p>
       </div>
         
@@ -20,9 +20,8 @@ function HeroBento() {
         </div>
 
       </div>
-      <div className="hidden md:block flex-1 relative mb-4 bg-gradient-to-b from-primary-focus to-primary-focus rounded-xl">
-        {/* Div para a faixa transparente no topo 
-        <div className="absolute top-0 left-0 w-full h-8 bg-white"></div>*/}
+      <div className="hidden md:block flex-1 relative mb-4 bg-gradient-to-b from-primary-focus to-primary-focus rounded-xl min-h-[550px]">
+        
         <div className="absolute inset-0 " style={{backgroundImage: 'url(images/mao9.png)', backgroundSize: 'cover', backgroundPosition: 'top'}}></div>
       </div>
     </div>
